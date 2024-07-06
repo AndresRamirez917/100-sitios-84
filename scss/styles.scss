@@ -87,6 +87,7 @@ form {
     }
     button {
         display: block;
+        width: 100%;
         padding: 10px 20px;
         text-align: center;
         text-transform: capitalize;
@@ -110,8 +111,8 @@ form {
     margin: 0 auto;
     padding-top: 2rem;
     .navbar {
-        width: 50%;
-        height: 50%;
+        max-width: calc(100vh - 300px);
+        max-height: calc(100vh - 30px);
         background: #fff;
         padding: 10px;
         p {
@@ -157,6 +158,19 @@ form {
         }
         p {
             text-align: justify;
+        }
+    }
+    //contact
+    .contact {
+        h2 {
+            padding: 3rem 0;
+        }
+        form {
+            min-width: calc(100vh + 150px);
+            padding: 50px;
+            .flex-box {
+                flex: 1;
+            }
         }
     }
 }
