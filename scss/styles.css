@@ -8,7 +8,7 @@
 html, body {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
-  background: pink;
+  background: rgba(255, 192, 203, 0.314);
 }
 
 a {
@@ -41,7 +41,7 @@ img {
 .flex {
   display: flex;
   flex: 1;
-  gap: 50px;
+  gap: 30px;
 }
 
 .title {
@@ -63,8 +63,8 @@ img {
   padding: 10px 20px;
   text-align: center;
   text-transform: capitalize;
-  border: 1px solid blue;
-  color: blue;
+  border: 1px solid rgba(0, 0, 255, 0.504);
+  color: rgba(0, 0, 255, 0.766);
   cursor: pointer;
 }
 
@@ -108,17 +108,45 @@ form button {
 }
 
 #mainheader {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   padding-top: 2rem;
 }
 #mainheader .navbar {
   width: 50%;
+  height: 50%;
   background: #fff;
+  padding: 10px;
+}
+#mainheader .navbar p {
+  margin: 1rem 0;
+}
+#mainheader .navbar ul li {
+  margin: 1rem 0;
+}
+#mainheader .navbar h3 {
+  text-align: center;
+  font-weight: 300;
 }
 
 #left-panel {
   background: #fff;
+}
+#left-panel .title {
+  margin: 3rem 0 2rem 0;
+}
+#left-panel p {
+  line-height: 25px;
+  margin-bottom: 1rem;
+}
+#left-panel .article .subtitle {
+  margin-bottom: 2rem;
+}
+#left-panel .article p {
+  font-size: small;
+}
+#left-panel .article .btn {
+  margin-bottom: 2rem;
 }
 
 #footer {
