@@ -149,6 +149,29 @@ form {
             margin-bottom: 2rem;
         }
     }
+    //about
+    .about {
+        .subtitle {
+            margin: 2rem 0;
+            text-transform: uppercase;
+        }
+        p {
+            text-align: justify;
+        }
+    }
+}
+
+//left panel 2
+#left-panel-2 {
+    .article {
+        img {
+            margin-bottom: 1rem;
+        }
+        p {
+            margin: 2rem 0;
+            text-align: justify;
+        }
+    }
 }
 
 
