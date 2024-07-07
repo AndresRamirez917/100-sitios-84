@@ -10,7 +10,6 @@
 }
 #main #mainheader .navbar .navbar-content {
   margin-bottom: 2rem;
-  color: rgb(106, 0, 255);
 }
 #main #mainheader #left-panel {
   width: 100%;
@@ -28,5 +27,11 @@
 }
 #mainheader .navbar .navbar-content {
   margin-bottom: 2rem;
-  color: rgb(106, 0, 255);
+}
+#mainheader #left-panel .article .icons-row {
+  gap: 10px;
+  text-align: center;
+}
+#mainheader #left-panel .article .icons-row .text-secondary, #mainheader #left-panel .article .icons-row .branding-design, #mainheader #left-panel .article .icons-row .comments {
+  color: rgba(0, 0, 0, 0.631372549);
 }/*# sourceMappingURL=mobile.css.map */

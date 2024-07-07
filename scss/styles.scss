@@ -65,14 +65,14 @@ img {
     padding: 10px 20px;
     text-align: center;
     text-transform: capitalize;
-    border: 1px solid rgba(0, 0, 255, 0.504);
+    border: 1px solid rgb(0, 145, 255);;
     color: rgba(0, 0, 255, 0.766);
     cursor: pointer;
 }
 
 .btn:hover {
     color: #fff;
-    background: blue;
+    background: rgb(0, 145, 255);
 }
 
 form {
@@ -144,6 +144,12 @@ form {
     .article {
         .subtitle {
             margin-bottom: 2rem;
+        }
+        .icons-row {
+            gap: 150px;
+            .text-secondary, .branding-design, .comments {
+                color: #000000a1;
+            }
         }
         p{
             font-size: small;
@@ -277,7 +283,6 @@ form {
             }
             .navbar-content {
                 margin-bottom: 2rem;
-                color: rgb(106, 0, 255);
             }
         }
         //article

@@ -62,14 +62,14 @@ img {
   padding: 10px 20px;
   text-align: center;
   text-transform: capitalize;
-  border: 1px solid rgba(0, 0, 255, 0.504);
+  border: 1px solid rgb(0, 145, 255);
   color: rgba(0, 0, 255, 0.766);
   cursor: pointer;
 }
 
 .btn:hover {
   color: #fff;
-  background: blue;
+  background: rgb(0, 145, 255);
 }
 
 form .form-group {
@@ -141,6 +141,12 @@ form button {
 }
 #left-panel .article .subtitle {
   margin-bottom: 2rem;
+}
+#left-panel .article .icons-row {
+  gap: 150px;
+}
+#left-panel .article .icons-row .text-secondary, #left-panel .article .icons-row .branding-design, #left-panel .article .icons-row .comments {
+  color: rgba(0, 0, 0, 0.631372549);
 }
 #left-panel .article p {
   font-size: small;
@@ -246,7 +252,6 @@ form button {
 }
 #main #mainheader .navbar .navbar-content {
   margin-bottom: 2rem;
-  color: rgb(106, 0, 255);
 }
 #main #left-panel {
   width: 65%;
