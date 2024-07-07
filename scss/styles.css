@@ -19,7 +19,7 @@ a {
 
 .navbar ul li a:hover,
 .navbar ul li a.active {
-  color: blue;
+  color: rgb(0, 145, 255);
   text-decoration: underline;
 }
 
@@ -63,13 +63,19 @@ img {
   text-align: center;
   text-transform: capitalize;
   border: 1px solid rgb(0, 145, 255);
-  color: rgba(0, 0, 255, 0.766);
+  color: rgb(0, 145, 255);
   cursor: pointer;
+}
+.btn .fa-arrow-right {
+  color: rgb(0, 145, 255);
 }
 
 .btn:hover {
   color: #fff;
   background: rgb(0, 145, 255);
+}
+.btn:hover .fa-arrow-right {
+  color: rgb(255, 255, 255);
 }
 
 form .form-group {
@@ -91,6 +97,9 @@ form button {
   color: #fff;
   background: #000;
   cursor: pointer;
+}
+form button:hover {
+  background: #242424;
 }
 
 ::-moz-placeholder {
@@ -120,6 +129,7 @@ form button {
 }
 #mainheader .navbar p {
   margin: 1rem 0;
+  text-align: justify;
 }
 #mainheader .navbar ul li {
   margin: 1rem 0;
@@ -147,6 +157,9 @@ form button {
 }
 #left-panel .article .icons-row .text-secondary, #left-panel .article .icons-row .branding-design, #left-panel .article .icons-row .comments {
   color: rgba(0, 0, 0, 0.631372549);
+}
+#left-panel .article .icons-row a:hover {
+  text-decoration: underline;
 }
 #left-panel .article p {
   font-size: small;

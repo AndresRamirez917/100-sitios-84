@@ -22,7 +22,7 @@ a {
 
 .navbar ul li a:hover,
 .navbar ul li a.active {
-    color: blue;
+    color: rgb(0, 145, 255);
     text-decoration: underline;
 }
 
@@ -65,14 +65,20 @@ img {
     padding: 10px 20px;
     text-align: center;
     text-transform: capitalize;
-    border: 1px solid rgb(0, 145, 255);;
-    color: rgba(0, 0, 255, 0.766);
+    border: 1px solid rgb(0, 145, 255);
+    color: rgb(0, 145, 255);
     cursor: pointer;
+    .fa-arrow-right {
+        color: rgb(0, 145, 255);
+    }
 }
 
 .btn:hover {
     color: #fff;
     background: rgb(0, 145, 255);
+    .fa-arrow-right {
+        color: rgb(255, 255, 255);
+    }
 }
 
 form {
@@ -95,6 +101,9 @@ form {
         color: #fff;
         background: #000;
         cursor: pointer;
+    }
+    button:hover {
+        background: #242424;
     }
 }
 
@@ -119,6 +128,7 @@ form {
         padding: 10px;
         p {
             margin: 1rem 0;
+            text-align: justify;
         }
         ul {
             li {
@@ -149,6 +159,9 @@ form {
             gap: 150px;
             .text-secondary, .branding-design, .comments {
                 color: #000000a1;
+            }
+            a:hover {
+                text-decoration: underline;
             }
         }
         p{
