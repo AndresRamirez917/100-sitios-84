@@ -1,1 +1,32 @@
-/*# sourceMappingURL=mobile.css.map */
+#main #mainheader {
+  display: block;
+}
+#main #mainheader .navbar {
+  width: 100%;
+}
+#main #mainheader .navbar .logo {
+  display: block;
+  margin: 0 auto;
+}
+#main #mainheader .navbar .navbar-content {
+  margin-bottom: 2rem;
+  color: rgb(106, 0, 255);
+}
+#main #mainheader #left-panel {
+  width: 100%;
+}
+
+#mainheader {
+  display: block;
+}
+#mainheader .navbar {
+  width: 100%;
+}
+#mainheader .navbar .logo {
+  display: block;
+  margin: 0 auto;
+}
+#mainheader .navbar .navbar-content {
+  margin-bottom: 2rem;
+  color: rgb(106, 0, 255);
+}/*# sourceMappingURL=mobile.css.map */

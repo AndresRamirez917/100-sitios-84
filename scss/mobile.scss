@@ -1,0 +1,39 @@
+//main
+#main {
+    //mainheader
+    #mainheader {
+        display: block;
+        .navbar {
+            width: 100%;
+            .logo {
+                display: block;
+                margin: 0 auto;
+            }
+            .navbar-content {
+                margin-bottom: 2rem;
+                color: rgb(106, 0, 255);
+            }
+        }
+      #left-panel {
+        width: 100%;
+      }
+    
+    }
+}
+
+//mainheader
+#mainheader {
+    display: block;
+    .navbar {
+        width: 100%;
+        .logo {
+            display: block;
+            margin: 0 auto;
+        }
+        .navbar-content {
+            margin-bottom: 2rem;
+            color: rgb(106, 0, 255);
+        }
+    }
+}
+

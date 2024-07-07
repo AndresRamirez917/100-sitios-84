@@ -40,7 +40,6 @@ img {
 
 .flex {
   display: flex;
-  flex: 1;
   gap: 30px;
 }
 
@@ -114,8 +113,8 @@ form button {
   padding-top: 2rem;
 }
 #mainheader .navbar {
-  max-width: calc(100vh - 300px);
-  max-height: calc(100vh - 30px);
+  width: 50%;
+  height: 50%;
   background: #fff;
   padding: 10px;
 }
@@ -160,19 +159,97 @@ form button {
   padding: 3rem 0;
 }
 #left-panel .contact form {
-  min-width: calc(100vh + 150px);
   padding: 50px;
 }
 #left-panel .contact form .flex-box {
   flex: 1;
 }
 
+#mainheader-2 {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+#mainheader-2 .navbar {
+  width: 30%;
+  height: 50%;
+  background: #fff;
+  padding: 10px;
+}
+#mainheader-2 .navbar p {
+  margin: 1rem 0;
+}
+#mainheader-2 .navbar ul li {
+  margin: 1rem 0;
+}
+#mainheader-2 .navbar h3 {
+  text-align: center;
+  font-weight: 300;
+}
+
+#left-panel {
+  background: #fff;
+}
+#left-panel .title {
+  margin: 3rem 0 2rem 0;
+}
+#left-panel p {
+  line-height: 25px;
+  margin-bottom: 1rem;
+}
+#left-panel .article .subtitle {
+  margin-bottom: 2rem;
+}
+#left-panel .article p {
+  font-size: small;
+}
+#left-panel .article .btn {
+  margin-bottom: 2rem;
+}
+#left-panel .about .subtitle {
+  margin: 2rem 0;
+  text-transform: uppercase;
+}
+#left-panel .about p {
+  text-align: justify;
+}
+#left-panel .contact h2 {
+  padding: 3rem 0;
+}
+#left-panel .contact form {
+  padding: 50px;
+}
+#left-panel .contact form .flex-box {
+  flex: 1;
+}
+
+#left-panel-2 {
+  background: #fff;
+}
 #left-panel-2 .article img {
   margin-bottom: 1rem;
 }
 #left-panel-2 .article p {
   margin: 2rem 0;
   text-align: justify;
+}
+
+#main {
+  margin: 0 auto;
+}
+#main #mainheader .navbar {
+  width: 30%;
+}
+#main #mainheader .navbar .logo {
+  display: block;
+  margin: 0 auto;
+}
+#main #mainheader .navbar .navbar-content {
+  margin-bottom: 2rem;
+  color: rgb(106, 0, 255);
+}
+#main #left-panel {
+  width: 65%;
 }
 
 #footer {

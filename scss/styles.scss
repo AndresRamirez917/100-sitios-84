@@ -43,7 +43,7 @@ img {
 
 .flex {
     display: flex;
-    flex: 1;
+
     gap: 30px;
 }
 
@@ -111,8 +111,10 @@ form {
     margin: 0 auto;
     padding-top: 2rem;
     .navbar {
-        max-width: calc(100vh - 300px);
-        max-height: calc(100vh - 30px);
+        // max-width: calc(100vh - 300px);
+        // max-height: calc(100vh - 30px);
+        width: 50%;
+        height: 50%;
         background: #fff;
         padding: 10px;
         p {
@@ -166,7 +168,81 @@ form {
             padding: 3rem 0;
         }
         form {
-            min-width: calc(100vh + 150px);
+            // min-width: calc(100vh + 150px);
+            padding: 50px;
+            .flex-box {
+                flex: 1;
+            }
+        }
+    }
+}
+
+//mainheader-2
+#mainheader-2 {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    .navbar {
+        // max-width: calc(100vh - 300px);
+        // max-height: calc(100vh - 30px);
+        width: 30%;
+        height: 50%;
+        background: #fff;
+        padding: 10px;
+        p {
+            margin: 1rem 0;
+        }
+        ul {
+            li {
+                margin: 1rem 0;
+            }
+        }
+        h3 {
+            text-align: center;
+            font-weight: 300;
+        }
+    }
+}
+
+#left-panel {
+    background: #fff;
+    .title {
+        margin: 3rem 0 2rem 0;
+    }
+    p {
+        line-height: 25px;
+        margin-bottom: 1rem;
+    }
+    .article {
+        .subtitle {
+            margin-bottom: 2rem;
+        }
+        p{
+            font-size: small;
+        }
+        .btn {
+            margin-bottom: 2rem;
+        }
+    }
+    //about
+    .about {
+        .subtitle {
+            margin: 2rem 0;
+            text-transform: uppercase;
+        }
+        p {
+            text-align: justify;
+        }
+    }
+    //contact
+    .contact {
+    
+        h2 {
+            padding: 3rem 0;
+        }
+        form {
+            // min-width: calc(100vh + 150px);
+
             padding: 50px;
             .flex-box {
                 flex: 1;
@@ -177,6 +253,7 @@ form {
 
 //left panel 2
 #left-panel-2 {
+    background: #fff;
     .article {
         img {
             margin-bottom: 1rem;
@@ -185,6 +262,29 @@ form {
             margin: 2rem 0;
             text-align: justify;
         }
+    }
+}
+
+#main {
+    margin: 0 auto;
+    //mainheader
+    #mainheader {
+        .navbar {
+  width: 30%;
+            .logo {
+                display: block;
+                margin: 0 auto;
+            }
+            .navbar-content {
+                margin-bottom: 2rem;
+                color: rgb(106, 0, 255);
+            }
+        }
+        //article
+    
+    }
+    #left-panel {
+        width: 65%;
     }
 }
 
